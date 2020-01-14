@@ -85,6 +85,15 @@ is of the specified object type.*/
 
         console.log(`my new fav num ${myFavNum}`);
         console.log(`your new fav num ${yourFavNum}`);
+
+        const myFavBand = 'Shakira';
+        myFavBand.toUpperCase(); /*does not change the original value, is string an object? why can we use dot notation?
+        Primitives have no properties. */
+        console.log('Shakira'.toUpperCase());
+
+        /*The reason we can change primitives is because of a primitive wrapper. The “object wrappers” are different for each primitive type and are called: String, Number, Boolean and Symbol. Thus, they provide different sets of methods.*/
+        console.log(myFavBand); 
+        console.log(myFavBand.toUpperCase());
     </script>
   </body>
 </html>
