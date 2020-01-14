@@ -73,6 +73,18 @@
       assert(myArray instanceof Array, 'myArray is an array!'); /*Checks the current object and returns true if the object
 is of the specified object type.*/
         assert(Array.isArray(myArray), 'my Array is an array!');
+
+
+        let myFavNum = 7;
+        let yourFavNum = 6;
+
+        yourFavNum = myFavNum;
+        console.log(`my fav num ${myFavNum}`);
+        console.log(`your fav num ${yourFavNum}`);
+        yourFavNum = 8;
+
+        console.log(`my new fav num ${myFavNum}`);
+        console.log(`your new fav num ${yourFavNum}`);
     </script>
   </body>
 </html>
