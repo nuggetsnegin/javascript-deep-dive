@@ -17,13 +17,37 @@
         avoid term return - because it's a keyword/implementation*/
 
         const getRandomItem = array => {
-        return a[Math.floor(Math.random() * a.length)]
+            return a[Math.floor(Math.random() * a.length)]
         }
 
 
 
+        /*takes in a string because of split*/
         const b = c => {
-        return c.split('').reverse().join()}
+            return c.split('').reverse().join()
+        }
+
+        /*boolean that tells user if they are logged in or not*/
+        const p = [
+            { id: 1, f: 'Maria', z: 'Mitchel' },
+            { id: 2, f: 'Ada', z: 'Lovelace' },
+            { id: 3, f: 'Charles', z: 'Babbage' }
+        ]
+
+        const q = () => p.map(e => `${e.z}, ${e.f}`)
+
+        q(p)
+
+        const a = [
+            { id: 1, r: 'admin', n: 'holly', z: 'carlson' },
+            { id: 2, r: 'editor', n: 'alexis', z: 'ryan' },
+            { id: 3, r: 'guest', n: 'simon', z: 'walters' },
+            { id: 4, r: 'admin', n: 'shawn', z: 'nash' },
+            { id: 5, r: 'guest', n: 'brian', z: 'garza' }
+        ]
+
+        const gz = (v) => {
+            return a.filter(u => u.r === v)
         }
     </script>
     
