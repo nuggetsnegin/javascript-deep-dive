@@ -20,14 +20,16 @@
             return a[Math.floor(Math.random() * a.length)]
         }
 
-
-
         /*takes in a string because of split*/
-        const b = c => {
+        const reverse = string => {
             return c.split('').reverse().join()
+
+            /*i.e. negin.split.reverse().join('') -> nigen
         }
 
         /*boolean that tells user if they are logged in or not*/
+
+
         const p = [
             { id: 1, f: 'Maria', z: 'Mitchel' },
             { id: 2, f: 'Ada', z: 'Lovelace' },
@@ -49,6 +51,44 @@
         const gz = (v) => {
             return a.filter(u => u.r === v)
         }
+        /* A string containing the average weekly temporary in july (in fahrenheit)*/
+
+
+        const x = () => $.ajax({
+            url: "https://www.googleapis.com/books/v1/users/115753440391396010607/bookshelves/1006/volumes",
+            type: "GET",
+            dataType: "json",
+            data: {
+                key: "AIzaSyDitBcEotbQY_BPq2qFEimwK9ugNGzK00g"
+            }
+        })
+
+        z = () => {
+            const y = Array.from(this.state.todos)
+            y.push(this.state.todo)
+            this.setState({ todos: y })
+            this.clearInput()
+        }
+
+        const z = [1, 5, 10, 22, 13, 55]
+
+        const x = y => {
+            return numbers.reduce((acc, curr) => {
+                return acc + curr
+            }, 0)
+        }
+
+        x(z)
+
+        const d = 10 // number of days in the week
+        const p = 55 // passengers in the boat
+        const v = true // user has completed onboarding
+
+        const loggedInUserWhoIsManager = 'Amanda Wakeford'
+        const loggedInuserWhoIsEmployee = 'James Billington'
+
+        birthUserIntoThisWorld(user) // generates a new user
+        expelUserToTheFifthDimension(user) // removes a user from a slack channel
     </script>
     
 </body>
